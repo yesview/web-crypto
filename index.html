@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web crypto test</title>
+</head>
+<body>
+    <div>
+        <p>Your brand new public key:</p>
+        <textarea readonly id="public-key"></textarea>
+    </div>
+    <script src="script.js"></script>
+
+    <div>
+        <p>Copy key from above and paste it in <a target="_blank" href="https://play.golang.org/p/kYlt1GMEKCA">a script</a> as key, run and put the result to form below</p>
+        <p>Put you encrypted data here</p>
+        <textarea name="encrypted-data" id="encrypted-data" cols="30" rows="10"></textarea>
+        <button id="decrypt">Decrypt</button>
+        <p>Decrypted data:</p>
+        <p id="decrypted-data"></p>
+    </div>
+
+    <style>
+        textarea {
+            width: 50%;
+            height: 100px;
+        }
+    </style>
+</body>
+</html>
