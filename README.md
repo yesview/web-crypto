@@ -15,3 +15,5 @@ Ideally your secret should appear on the page.
 All keys are stored in IndexedDB and persist on hard drive, so no data would be lost if you close tab or browser or even reboot computer.
 
 Apparently it doesn't work in safari :(
+
+
