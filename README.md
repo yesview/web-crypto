@@ -1,6 +1,6 @@
 # web-crypto
 
-### disclaimer: this code needs huge refactor, it's just me trying to use some crypto APIs.
+### disclaimer: this code needs huge refactor, it's just me trying to use some crypto APIs
 
 
 Just trying out web crypto module
